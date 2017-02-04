@@ -1,0 +1,286 @@
+CreateMeshBuilder,
+AddVertex, -0.35, 0, -0.079
+AddVertex, 0.35, 0, -0.079
+AddVertex, 0.35, 0.13, -0.079
+AddVertex, -0.35, 0.13, -0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_front.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 255, 255, 255
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, -0.35, 0, 0.079
+AddVertex, 0.35, 0, 0.079
+AddVertex, 0.35, 0.13, 0.079
+AddVertex, -0.35, 0.13, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_front.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 255, 255, 255
+SetEmissiveColor,255,255,255
+;;;
+CreateMeshBuilder,
+AddVertex, -0.342, 0.05, 0.079
+AddVertex, -0.342, 0.05, -0.079
+AddVertex, -0.35, 0.13, -0.079
+AddVertex, -0.35, 0.13, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255 
+
+CreateMeshBuilder,
+AddVertex, -0.342, 0.05, 0.079
+AddVertex, -0.342, 0.05, -0.079
+AddVertex, -0.335, 0.03, -0.079
+AddVertex, -0.335, 0.03, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255 
+
+CreateMeshBuilder,
+AddVertex, -0.329, 0.02, 0.079
+AddVertex, -0.329, 0.02, -0.079
+AddVertex, -0.335, 0.03, -0.079
+AddVertex, -0.335, 0.03, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, -0.329, 0.02, 0.079
+AddVertex, -0.329, 0.02, -0.079
+AddVertex, -0.32, 0.01, -0.079
+AddVertex, -0.32, 0.01, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, -0.31, 0.005, 0.079
+AddVertex, -0.31, 0.005, -0.079
+AddVertex, -0.32, 0.01, -0.079
+AddVertex, -0.32, 0.01, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, -0.31, 0.005, 0.079
+AddVertex, -0.31, 0.005, -0.079
+AddVertex, -0.295, 0, -0.079
+AddVertex, -0.295, 0, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+;;;;
+CreateMeshBuilder,
+AddVertex, -0.295, 0, 0.079
+AddVertex, -0.295, 0, -0.079
+AddVertex, 0.295, 0, -0.079
+AddVertex, 0.295, 0, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+;;;
+CreateMeshBuilder,
+AddVertex, 0.342, 0.05, 0.079
+AddVertex, 0.342, 0.05, -0.079
+AddVertex, 0.35, 0.13, -0.079
+AddVertex, 0.35, 0.13, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255 
+
+CreateMeshBuilder,
+AddVertex, 0.342, 0.05, 0.079
+AddVertex, 0.342, 0.05, -0.079
+AddVertex, 0.335, 0.03, -0.079
+AddVertex, 0.335, 0.03, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255 
+
+CreateMeshBuilder,
+AddVertex, 0.329, 0.02, 0.079
+AddVertex, 0.329, 0.02, -0.079
+AddVertex, 0.335, 0.03, -0.079
+AddVertex, 0.335, 0.03, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.329, 0.02, 0.079
+AddVertex, 0.329, 0.02, -0.079
+AddVertex, 0.32, 0.01, -0.079
+AddVertex, 0.32, 0.01, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.31, 0.005, 0.079
+AddVertex, 0.31, 0.005, -0.079
+AddVertex, 0.32, 0.01, -0.079
+AddVertex, 0.32, 0.01, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.31, 0.005, 0.079
+AddVertex, 0.31, 0.005, -0.079
+AddVertex, 0.295, 0, -0.079
+AddVertex, 0.295, 0, 0.079
+AddFace2,0,1,2,3
+LoadTexture, vpis_side.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+;;;;;
+CreateMeshBuilder,
+AddVertex, -0.28, 0.01, -0.071
+AddVertex, 0.28, 0.01, -0.071
+AddVertex, 0.28, 0.13, -0.071
+AddVertex, -0.28, 0.13, -0.071
+AddFace2,0,1,2,3
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex, -0.28, 0.01, 0.071
+AddVertex, 0.28, 0.01, 0.071
+AddVertex, 0.28, 0.13, 0.071
+AddVertex, -0.28, 0.13, 0.071
+AddFace2,0,1,2,3
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex, 0.24, 0.03, -0.072
+AddVertex, -0.24, 0.03, -0.072
+AddVertex, -0.24, 0.11, -0.072
+AddVertex, 0.24, 0.11, -0.072
+AddFace2,0,1,2,3
+LoadTexture, test_msg.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, 0.24, 0.03, -0.073
+AddVertex, -0.24, 0.03, -0.073
+AddVertex, -0.24, 0.11, -0.073
+AddVertex, 0.24, 0.11, -0.073
+AddFace2,0,1,2,3
+LoadTexture, test_msg.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,0,
+
+CreateMeshBuilder,
+AddVertex, -0.24, 0.03, 0.072
+AddVertex, 0.24, 0.03, 0.072
+AddVertex, 0.24, 0.11, 0.072
+AddVertex, -0.24, 0.11, 0.072
+AddFace2,0,1,2,3
+LoadTexture, test_msg.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, -0.24, 0.03, 0.073
+AddVertex, 0.24, 0.03, 0.073
+AddVertex, 0.24, 0.11, 0.073
+AddVertex, -0.24, 0.11, 0.073
+AddFace2,0,1,2,3
+LoadTexture, test_msg.png
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetDecalTransparentColor, 0, 0, 0
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,0,
