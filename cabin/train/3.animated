@@ -1,0 +1,85 @@
+[Include]
+dt3ext.csv
+m_int.csv
+setnumber_2.csv
+emgdoor\door.csv
+undercarriage.csv
+handgrip_dt.ANIMATED
+
+[Object]
+Position = 0,0,0
+States = doorsl1.csv
+TranslateZFunction = 0.9*if[rightDoors[0]>0.5,1,rightDoors[0]*2]
+
+[Object]
+Position = 0,0,0
+States = doorsl2.csv
+TranslateZFunction = -0.9*if[rightDoors[0]>0.5,1,rightDoors[0]*2]
+
+[Object]
+Position = 0,0,0
+States = doorsr1.csv
+TranslateZFunction = 0.9*if[leftDoors[0]>0.5,1,leftDoors[0]*2]
+[Object]
+Position = 0,0,0
+States = doorsr2.csv
+TranslateZFunction = -0.9*if[leftDoors[0]>0.5,1,leftDoors[0]*2]
+
+[Include]
+seats\7seats2comp.csv
+handgrip_0.ANIMATED
+Position = 0, 1.24, 0
+
+[Include]
+seats\7seats.csv
+handgrip_0.ANIMATED
+Position = 0, 1.24, -5.875
+
+[Include]
+seats\7seatsrightcomp.csv
+handgrip_0.ANIMATED
+Position = 0, 1.24, 5.875
+
+[Include]
+seats\2seats.csv
+Position = 0, 1.24, 0
+
+[Include]
+gangway_3.csv
+Position = 0, 1.165, 0
+
+[Include]
+poles_2.csv
+
+;VPIS;
+[Include]
+vpis\vpis_shell.ANIMATED
+Position = 0, 3.22, 5.9
+
+[Include]
+vpis\doorclosing.ANIMATED
+Position = 0, 3.22, 5.9
+
+[Include]
+vpis\vpis_shell.ANIMATED
+Position = 0, 3.22, -5.85
+
+[Include]
+vpis\doorclosing.ANIMATED
+Position = 0, 3.22, -5.85
+
+[Include]
+bogie.animated
+Position = 0,1.1,0
+
+[Object]
+Position = 1,0.0575,0
+States = doorclosingindicator_off.csv, doorclosingindicator_on.csv
+StateFunction = if[leftDoors,if[leftDoorsTarget,0,value == 0],0]
+RefreshRate = 2
+
+[Object]
+Position = -1,0.0575,0
+States = doorclosingindicator_off.csv, doorclosingindicator_on.csv
+StateFunction = if[rightDoors,if[rightDoorsTarget,0,value == 0],0]
+RefreshRate = 2

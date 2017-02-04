@@ -1,0 +1,5 @@
+[Object]
+States = handgrips.csv
+Position = 0,0,0
+RotateXFunction = acceleration/10
+RotateXDamping = 5, 0.3

@@ -1,0 +1,281 @@
+CreateMeshBuilder,
+AddVertex, -1.5, 1.975, -10.8
+AddVertex, 1.5, 1.975, -10.8
+AddVertex, 1.5, 0, -10.8
+AddVertex, -1.5, 0, -10.8
+AddFace,3,2,1,0
+LoadTexture, gangway_front.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor, 0, -0, 255
+
+CreateMeshBuilder
+AddVertex, -0.6, 1.975, -10.8
+AddVertex, -0.6, 1.975, -10.98
+AddVertex, -0.6, 0, -10.98
+AddVertex, -0.6, 0, -10.8
+AddFace, 3, 2, 1, 0
+LoadTexture, gangway_sider.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, -0.6, 1.975, -11.05
+AddVertex, -0.6, 1.975, -10.98
+AddVertex, -0.6, 0, -10.98
+AddVertex, -0.6, 0, -11.05
+AddFace2, 3, 2, 1, 0
+SetEmissiveColor,255,255,255
+LoadTexture, gangwaywall_1.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, -0.6, 1.975, -11.05
+AddVertex, -0.63, 1.975, -11.09
+AddVertex, -0.63, 0, -11.09
+AddVertex, -0.6, 0, -11.05
+AddFace2, 0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture, gangwaywall_3.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, -0.63, 1.975, -11.09
+AddVertex, -0.68, 1.975, -11.7
+AddVertex, -0.68, 0, -11.7
+AddVertex, -0.63, 0, -11.09
+AddFace2, 0,1,2,3
+LoadTexture, gangwaywall_2.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0.6, 1.975, -10.8
+AddVertex, 0.6, 1.975, -10.98
+AddVertex, 0.6, 0, -10.98
+AddVertex, 0.6, 0, -10.8
+AddFace, 0, 1, 2, 3
+LoadTexture, gangway_sidel.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0.6, 1.975, -11.05
+AddVertex, 0.6, 1.975, -10.98
+AddVertex, 0.6, 0, -10.98
+AddVertex, 0.6, 0, -11.05
+AddFace2, 3, 2, 1, 0
+SetEmissiveColor,255,255,255
+LoadTexture, gangwaywall_1.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0.6, 1.975, -11.05
+AddVertex, 0.63, 1.975, -11.09
+AddVertex, 0.63, 0, -11.09
+AddVertex, 0.6, 0, -11.05
+AddFace2, 0,1,2,3
+SetEmissiveColor,255,255,255
+LoadTexture, gangwaywall_3.png
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0.63, 1.975, -11.09
+AddVertex, 0.68, 1.975, -11.7
+AddVertex, 0.68, 0, -11.7
+AddVertex, 0.63, 0, -11.09
+AddFace2, 0,1,2,3
+LoadTexture, gangwaywall_2.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, -0.64, 0.005, -10.85
+AddVertex, -0.64, 0.005, -11.13
+AddVertex, 0.64, 0.005, -11.13
+AddVertex, 0.64, 0.005, -10.85
+AddFace2, 0, 1, 2, 3
+LoadTexture, gangwayfloor_1.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0.63, 0.18, -11.1
+AddVertex, 0.68, 0.18, -11.7
+AddVertex, 0.58, 0, -11.7
+AddVertex, 0.53, 0, -11.1
+AddFace2, 0, 1, 2, 3
+LoadTexture, gangwayfloor_2.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0.63, 0.18, -11.1
+AddVertex, 0.53, 0, -11.1
+AddVertex, 0.63, 0, -11.1
+AddFace2,0,1,2
+SetColor,140,141,146
+
+CreateMeshBuilder
+AddVertex, -0.64, 0.01, -11.15
+AddVertex, -0.64, 0.005, -11.1
+AddVertex, 0.64, 0.005, -11.1
+AddVertex, 0.64, 0.01, -11.15
+AddFace2, 0, 1, 2, 3
+LoadTexture, gangwayfloor_3.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 3
+SetTextureCoordinates, 3, 0, 3
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, -0.64, 0.01, -11.15
+AddVertex, -0.64, 0.01, -11.7
+AddVertex, 0.64, 0.01, -11.7
+AddVertex, 0.64, 0.01, -11.15
+AddFace2, 0, 1, 2, 3
+LoadTexture, gangwayfloor_3.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 3
+SetTextureCoordinates, 3, 0, 3
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, -0.63, 0.18, -11.1
+AddVertex, -0.68, 0.18, -11.7
+AddVertex, -0.58, 0, -11.7
+AddVertex, -0.53, 0, -11.1
+AddFace2, 0, 1, 2, 3
+LoadTexture, gangwayfloor_2.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, -0.63, 0.18, -11.1
+AddVertex, -0.53, 0, -11.1
+AddVertex, -0.63, 0, -11.1
+AddFace2,0,1,2
+SetColor,140,141,146
+
+
+CreateMeshBuilder
+AddVertex, 0.68, 1.975, -11.08
+AddVertex, 0.68, 1.975, -11.7
+AddVertex, -0.68, 1.975, -11.7
+AddVertex, -0.68, 1.975, -11.08
+AddFace2, 0, 1, 2, 3
+LoadTexture, gangway_roof.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 0.605, 1.975, -11.08
+AddVertex, 0.605, 1.975, -10.8
+AddVertex, -0.605, 1.975, -10.8
+AddVertex, -0.605, 1.975, -11.08
+AddFace2, 0, 1, 2, 3
+LoadTexture, gangway_light.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+CreateMeshBuilder
+AddVertex, 1, 1.975, -10.8
+AddVertex, 1, 2.25, -10.8
+AddVertex, -1, 2.25, -10.8
+AddVertex, -1, 1.975, -10.8
+AddFace2, 0, 1, 2, 3
+LoadTexture, gangway_top.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0, 1
+SetDecalTransparentColor, 0, 0, 255
+
+;;;;;;;;;;;;;;;;;;;;Set No;;;;;;;;;;;;;;;;;
+CreateMeshBuilder,
+AddVertex, 0.82, 2.12, -10.79
+AddVertex, 0.82, 2.05, -10.79
+AddVertex, 0.62, 2.05, -10.79
+AddVertex, 0.62, 2.12, -10.79
+AddFace2,3,2,1,0
+LoadTexture, set number\alstom.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetDecalTransparentColor, 255,255,255
+
+CreateMeshBuilder,
+AddVertex, -0.72, 2.02, 10.89
+AddVertex, -0.72, 1.95, 10.89
+AddVertex, -0.52, 1.95, 10.89
+AddVertex, -0.52, 2.02, 10.89
+AddFace2,3,2,1,0
+LoadTexture, set number\alstom.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetDecalTransparentColor, 255,255,255
