@@ -1,0 +1,12 @@
+C751C Public Test Build 5
+
+Credits:
+SMB142J (Train)
+Improved Audio Recorded By Me
+Joey Foo (Certain Textures)
+
+Additions and Modifications:
+Pantograph (from C751A)
+Handgrips (Credit Smrtcircleline)
+More reserved seat code
+Improved Braking Sounds
