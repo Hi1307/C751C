@@ -1,0 +1,11 @@
+CreateMeshBuilder,
+AddVertex, -0.6, 0.912, 12.20
+AddVertex, -0.6, 0.918, 12.30
+AddVertex, 0.6, 0.918, 12.30
+AddVertex, 0.6, 0.912, 12.20
+AddFace2,0,1,2,3
+LoadTexture, 2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 0,1,0
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 0,0,1
